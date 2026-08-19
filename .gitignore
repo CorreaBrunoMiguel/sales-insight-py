@@ -24,3 +24,9 @@ Thumbs.db
 
 # Documento local do enunciado
 *.docx
+
+# Arquivos temporários de editores
+.~lock.*
+
+# Metadados de empacotamento Python
+*.egg-info/
