@@ -13,7 +13,8 @@ dependencies = [
     "numpy",
     "matplotlib",
     "seaborn",
-    "ipython"
+    "ipython",
+    "jinja2"
 ]
 
 [tool.setuptools.packages.find]
