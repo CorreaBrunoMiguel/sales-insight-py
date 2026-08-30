@@ -9,11 +9,7 @@ def exibir_tabela(
 ) -> None:
     """Exibe um DataFrame sem índice e com formatação opcional."""
 
-    tabela = (
-        dataframe.head(limite)
-        if limite is not None
-        else dataframe
-    )
+    tabela = dataframe.head(limite) if limite is not None else dataframe
 
     estilo = tabela.style.hide(axis="index")
 
