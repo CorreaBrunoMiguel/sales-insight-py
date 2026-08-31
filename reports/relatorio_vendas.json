@@ -1,6 +1,6 @@
 {
   "metadados": {
-    "projeto": "SalesInsight",
+    "projeto": "SalesInsight PY",
     "arquivo_origem": "vendas.csv",
     "periodo_analisado": {
       "inicio": "2025-01-01",
