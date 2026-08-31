@@ -1,0 +1,111 @@
+{
+  "metadados": {
+    "projeto": "SalesInsight PY",
+    "arquivo_origem": "vendas.csv",
+    "periodo_analisado": {
+      "inicio": "2025-01-01",
+      "fim": "2025-06-30"
+    }
+  },
+  "indicadores_gerais": {
+    "registros_analisados": 5361,
+    "vendas_unicas": 5361,
+    "clientes_unicos": 534,
+    "unidades_vendidas": 12927,
+    "receita_total": 10338017.17,
+    "ticket_medio": 1928.37
+  },
+  "desempenho_mensal": [
+    {
+      "mes": "Janeiro",
+      "receita_total": 1299266.31,
+      "unidades_vendidas": 1968,
+      "numero_vendas": 824
+    },
+    {
+      "mes": "Fevereiro",
+      "receita_total": 1591691.83,
+      "unidades_vendidas": 2063,
+      "numero_vendas": 855
+    },
+    {
+      "mes": "Março",
+      "receita_total": 2291715.46,
+      "unidades_vendidas": 2443,
+      "numero_vendas": 991
+    },
+    {
+      "mes": "Abril",
+      "receita_total": 2004674.59,
+      "unidades_vendidas": 2241,
+      "numero_vendas": 900
+    },
+    {
+      "mes": "Maio",
+      "receita_total": 1613016.68,
+      "unidades_vendidas": 2081,
+      "numero_vendas": 880
+    },
+    {
+      "mes": "Junho",
+      "receita_total": 1537652.3,
+      "unidades_vendidas": 2131,
+      "numero_vendas": 911
+    }
+  ],
+  "destaques_comerciais": {
+    "mes_maior_receita": {
+      "mes": "Março",
+      "receita_total": 2291715.46
+    },
+    "produto_maior_receita": {
+      "produto": "ACER Notebook Gamer Nitro",
+      "receita_total": 1848972.94
+    },
+    "categoria_maior_receita": {
+      "categoria": "Informática",
+      "receita_total": 3049354.74
+    },
+    "regiao_maior_receita": {
+      "regiao": "Sudeste",
+      "receita_total": 2829006.77,
+      "numero_vendas": 1435,
+      "ticket_medio": 1971.43
+    },
+    "cliente_maior_gasto": {
+      "id_cliente": "Cliente_371",
+      "nome_cliente": "Ana Luiza Nunes",
+      "gasto_total": 116525.85,
+      "segmento": "Ouro"
+    }
+  },
+  "segmentacao_clientes": [
+    {
+      "segmento": "Ouro",
+      "numero_clientes": 245,
+      "percentual": 45.88
+    },
+    {
+      "segmento": "Prata",
+      "numero_clientes": 182,
+      "percentual": 34.08
+    },
+    {
+      "segmento": "Bronze",
+      "numero_clientes": 107,
+      "percentual": 20.04
+    }
+  ],
+  "estatisticas_receitas": {
+    "media": 1928.37,
+    "mediana": 979.7,
+    "desvio_padrao": 2530.21,
+    "soma": 10338017.17,
+    "minimo": 13.83,
+    "maximo": 18316.56,
+    "vendas_acima_media": {
+      "quantidade": 1720,
+      "percentual": 32.08
+    }
+  }
+}
