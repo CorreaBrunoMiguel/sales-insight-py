@@ -29,7 +29,7 @@ DICIONARIO_DADOS = {
         "Categoria à qual o produto pertence.",
         "Quantidade de unidades vendidas na transação.",
         "Preço unitário do produto no momento da venda.",
-        "Desconto aplicado à transação, formato decimal.",
+        "Percentual de desconto registrado na transação, representado em formato decimal.",
         "Data prevista para a entrega do pedido.",
         "Data em que o pedido foi efetivamente entregue.",
     ],
